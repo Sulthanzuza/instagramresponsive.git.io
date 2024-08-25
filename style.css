@@ -1,0 +1,743 @@
+.main{
+    width: auto;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+.left_main{
+    background:rgb(255, 255, 255);
+    height:35.9rem;
+    width: 15.62rem;
+    border-right:solid rgb(201, 201, 201);
+    position: sticky;
+    left: 0;
+    top: 0;
+    overflow:none;
+}
+
+.wrapper{
+    position: relative;
+
+}
+.font-logo{
+    width: 8rem;
+    height: 4rem;
+    mix-blend-mode: multiply;
+    padding-left: 19px;
+    padding-top: 32px;
+}
+.home{
+    width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+   
+}
+.home-logo{
+    width: 37px;
+    height: 32px;
+    padding-left: 10px;
+    
+    float: left;
+}
+.home-font{
+    color: rgb(0, 0, 0);
+    float: left;
+    padding-left: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    padding-top: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+
+.search-icon{
+    width: 2.5rem;
+    height: 24px;
+    mix-blend-mode:multiply;
+    padding-left: 15px; 
+    padding-top: 2px;
+}
+.search{
+   
+     width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.search-text{
+    color: rgb(0, 0, 0);
+    padding-right: 115px;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 5px;
+}
+.explore-icon{
+   width: 2.5rem;
+   padding-left: 13px; 
+   padding-top: 3px;
+}
+.explore{
+    width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+   
+}
+.explore-text{
+    color: rgb(0, 0, 0);
+    padding-right: 113px;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 5px;
+}
+.reels{
+    width: 10px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.reels-icon{
+    mix-blend-mode: multiply;
+    width:25px;
+    padding-left: 13px;
+    padding-top: 2px;
+}
+.reels-text{
+    color: rgb(0, 0, 0);
+    padding-right: 127px;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 6px;
+}
+.messages{
+    width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.message-icon{
+    mix-blend-mode: multiply;
+    width: 28px;
+    padding-left: 7px;
+}
+.messages-text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top:6px;
+    padding-right: 96px;
+   
+}
+.notifications{
+    width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.notifications-icon{
+    mix-blend-mode: multiply;
+    width: 33px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+}
+.notifications-text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 7px;
+    padding-right: 82px;
+}
+.create-icon{
+    mix-blend-mode: multiply;
+    width: 33px;
+    padding-left:9px;
+   
+}
+.create{
+    width: 220px;
+    height: 40px;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.create-text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 7px;
+    padding-right: 118px;
+}
+.profile{
+    width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.insta-dp{
+    width: 30px;
+    padding-left: 9px;
+   border-radius:100%;
+}
+.profile-text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 7px;
+    padding-right: 118px;
+}
+.search:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.explore:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.reels:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.messages:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.notifications:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.create:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.profile:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+
+
+.more{
+    width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.more-icon{
+    width: 28px;
+    height: 28px;
+    padding-left: 11px;
+mix-blend-mode: multiply;
+}
+.more-text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 7px;
+    padding-right: 128px;
+}
+.more:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+
+
+.img-fluid {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 5px;
+    border: 2px solid #dfe6e9;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.story-tab {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: none;
+    width: 50px;
+}
+
+.story-content {
+    flex: 0 0 auto;
+    margin: 0 10px;
+}
+
+.story-content img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 3px; 
+    background: linear-gradient(to top right, orange, deeppink), 
+                radial-gradient(circle at center, rgba(0, 0, 0, 0.15) 60%, transparent 60%), 
+                radial-gradient(circle at center, white 65%, transparent 65%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.video1 {
+    width: 100%;
+    height: auto;
+}
+
+
+.text-container {
+    font-size: 12px;
+    color: #333;
+}
+
+
+.scontainer::-webkit-scrollbar {
+    display: none;
+}
+
+.scontainer {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+.post1{
+    width: 470px;
+    height: 744px;
+    background: rgb(255, 255, 255);
+    margin-left: 45px;
+}
+.top-bar{
+    width: auto;
+    height: 44px;
+    background: rgb(255, 255, 255);
+    padding-top: 15px;
+}
+.postdp{
+    width: 35px; cursor: pointer;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 1px;
+    margin-top: 1px;
+    float: left;
+    padding: 2px; 
+    background: linear-gradient(to top right, orange, deeppink), 
+                radial-gradient(circle at center, rgba(0, 0, 0, 0.15) 60%, transparent 60%), 
+                radial-gradient(circle at center, white 65%, transparent 65%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dptag{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:bold;
+    font-size:13px;
+    padding-top: 10px;
+    float: left; cursor: pointer;
+    padding-left: 10px;
+}
+.time{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:bold;
+    font-size:13px;
+    padding-top: 10px;
+    float: left;
+    padding-left: 30px; 
+    color:rgb(124, 121, 118) ;
+}
+.threedots{
+    padding-top: 11px; cursor: pointer;
+    padding-left: 441px;
+}
+.video1{
+    display:block;
+    align-content:center ;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.bottom-tab {
+    background-color: rgb(255, 255, 255); 
+    width: 100%;
+    height: auto; 
+    color: black;
+    text-align: left;
+    padding: 10px 0;
+    float: left;
+}
+
+/* Button styles */
+.like, .comment, .share, .save {
+    cursor: pointer;
+    mix-blend-mode: multiply;
+}
+
+.like {
+    width: 36px;
+    height: 32px;
+}
+
+.comment {
+    width: 42px;
+    height: 34px;
+    margin-right: 5px;
+}
+
+.share {
+    width: 34px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.save {
+    width: 35px;
+    cursor: pointer;
+    height: 32px;
+    mix-blend-mode: multiply;
+    margin-left: 18.75rem;
+}
+
+
+/* Flexbox container for buttons */
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+/* Text elements container */
+.text-container {
+    display: block;
+}
+
+.like-text, .dptag1, .view-comments, .add-comment {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+.like-text {
+    font-weight: 600;
+    color: black;
+}
+
+.view-comments, .add-comment {
+    color: rgb(115, 115, 115);
+}
+
+
+.right-main::-webkit-scrollbar {
+    display: none;
+}
+
+.right-main {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+.right-edge{
+    width: 320px;
+    height: 59rem;
+    background: rgb(255, 255, 255);
+    float: left;
+    position: fixed;
+}
+.account-dp{
+    width: 45px;
+    height: 45px;
+    margin-left: 1px;
+    margin-top: 0px; cursor: pointer;
+    border-radius: 100%;
+    float: left;
+    color: black;
+    
+}
+.dptag1:link,
+.dptag1:visited,
+.dptag1:hover,
+.dptag1:active {
+    color: black;
+    text-decoration: none;
+}
+.like-text:link,
+.like-text:visited,
+.like-text:hover,
+.like-text:active {
+    color: black;
+    text-decoration: none; /* Keeps underline removed for all states */
+}.view-comments:link,
+.view-comments:visited,
+.view-comments:hover,
+.view-comments:active {
+    color: black;
+    text-decoration: none; 
+}.dptag1:link,
+.dptag1:visited,
+.dptag1:hover,
+.dptag1:active {
+    color: black;
+    text-decoration: none; 
+}
+.user-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px; cursor: pointer;
+    padding-top: 14px;
+    padding-left: 62px;
+    
+}
+.profile-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px; cursor: pointer;
+    color: rgb(115, 115, 115);
+    line-height: 2.3;
+    padding-left: 16px;
+    float: left;
+}
+
+.switch{
+    color: rgb(0, 149, 246);
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    color: rgb(0, 149, 246);
+}
+
+.account-box{
+    width: 283px;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    margin-left: 34px; cursor: pointer;
+    margin-top: 29px;
+}
+.suggestion{
+    width: 302px;
+    height: 43px; cursor: pointer;
+    background: rgb(255, 255, 255);
+    margin-left: 34px;
+}
+.suggest{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:13px;
+    float: left; cursor: pointer;
+    color: rgb(115, 115, 115);
+    margin-top: 18px;
+    font-weight: 600;
+}
+.see-all{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:13px; cursor: pointer;
+    margin-left: 241px;
+    font-weight: 400;
+    padding-top: 18px;
+    
+}
+.suggestion-accounts1{
+    width: 300px;
+margin-left: 35px; cursor: pointer;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+   
+}
+.dp1{
+    width: 40px;
+    border-radius: 100%;
+   display: flex;
+overflow: hidden; cursor: pointer;
+align-items: flex-start;
+float: left;
+}
+.username1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 12px;
+    cursor: pointer;
+    padding-top: 6px;
+    margin-left: 56px;
+}
+.suggest-ion1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:13px;
+    float: left;
+    color: rgb(115, 115, 115);
+    margin-top: 5px;
+    cursor: pointer;
+    font-weight: 300;
+    margin-left: 16px;
+}
+.follow-button1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    color: rgb(0, 149, 246);
+    margin-left: 240px;
+    
+    
+}
+.suggestion-accounts2{
+    width: 300px;
+    margin-left: 35px;
+    height: 45px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    
+}
+.dp2{
+    width: 40px;
+    cursor: pointer;
+    border-radius: 100%;
+   display: flex;
+overflow: hidden;
+float: left;
+}
+.username2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    cursor: pointer;
+    font-size: 12px;
+    padding-top: 6px;
+    margin-left: 56px;
+} 
+.suggest-ion2{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:13px;
+    float: left; cursor: pointer;
+    color: rgb(115, 115, 115);
+    margin-top: 5px;
+    font-weight: 300;
+    margin-left: 16px;
+}
+.follow-button2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    color: rgb(0, 149, 246);
+    margin-left: 240px;}
+
+    .suggestion-accounts3{
+        width: 300px;
+        margin-left: 35px;
+        height: 45px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 10px;
+        cursor: pointer;
+        
+    }
+    .dp3{
+        width: 40px;
+        cursor: pointer;
+        border-radius: 100%;
+       display: flex;
+    overflow: hidden;
+    float: left;
+    }
+    .username3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        font-size: 12px;
+        cursor: pointer;
+        padding-top: 6px;
+        margin-left: 56px;
+    } 
+    .suggest-ion3{
+        font-family: Helvetica, Arial, sans-serif;
+        font-size:13px;
+        float: left;
+        color: rgb(115, 115, 115);
+        margin-top: 5px;
+        font-weight: 300;
+        cursor: pointer;
+        margin-left: 16px;
+    }
+    .follow-button3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        cursor: pointer;
+        color: rgb(0, 149, 246);
+        margin-left: 240px;
+    }
+    .about{
+        font-size: 12px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #6d6666;
+        padding-left: 40px;
+        padding-top: 35px;
+        cursor: pointer;
+    }
+    .left-navr-bar{
+        width: 14rem;
+        background-color: rgb(255, 255, 255);
+        padding: .8rem;
+        border-radius:  10px 10px 10px 10px;
+        align-content: space-between;
+        
+    }        
+.left-bar-text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-left: .5rem;
+    padding-top: 6px;
+
+    }
+.left-icons{
+    mix-blend-mode: multiply;
+    width: 2rem;
+    align-items: center;
+}
+.left-navr-bar:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
